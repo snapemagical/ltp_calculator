@@ -14,6 +14,7 @@ const getData = async () => {
 
 export default async  function Home() {
   let data = await getData();
+  
   return (
     <main className={styles.main}>
       <h1>LTP calulator</h1>
