@@ -19,7 +19,7 @@ export default async  function Home() {
   return (
     <main className={styles.main}>
       <h1>LTP calulator</h1>
-      <Profile post={data}/>
+      {/* <Profile post={data}/> */}
     </main>
   );
 }
