@@ -15,17 +15,17 @@ import { useEffect } from "react";
 
 
 export default async  function Home() {
-  const getData = async () => {
-    const data = await fetch('https://ltp-calculator-git-master-snapemagicals-projects.vercel.app/api', {cache: 'no-cache'});
-  if (!data.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error('Failed to fetch data');
-  }
+//   const getData = async () => {
+//     const data = await fetch('https://ltp-calculator-git-master-snapemagicals-projects.vercel.app/api', {cache: 'no-cache'});
+//   if (!data.ok) {
+//     // This will activate the closest `error.js` Error Boundary
+//     throw new Error('Failed to fetch data');
+//   }
  
-  return data.json()
-}
-  let data = await getData();
-  console.log(data);
+//   return data.json()
+// }
+//   let data = await getData();
+//   console.log(data);
   
   return (
     <main className={styles.main}>
