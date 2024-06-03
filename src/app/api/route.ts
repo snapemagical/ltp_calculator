@@ -1,5 +1,5 @@
 export async function GET() {
-    let data = await fetch('https://jsonplaceholder.typicode.com/todos', {
+    let data = await fetch('https://www.nseindia.com/api/option-chain-indices?symbol=NIFTY', {
         method: "GET"
     });
     const nseData = await data.json();
